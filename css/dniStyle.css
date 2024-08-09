@@ -1,0 +1,43 @@
+*{
+    font-family: Verdana;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.container{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    flex-direction: column;
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    background-color: #F7F7F7;
+}
+
+img{
+    width: 75%;
+}
+
+.container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton{
+    padding: 10px;
+    background-color: #26ba87;
+    color: azure;
+}
+
+.centrado{
+    text-align: center;
+}
